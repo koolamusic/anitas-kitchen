@@ -1,13 +1,38 @@
-.ham {
+body {
+  font-family: 'PT Sans', serif;
+}
+
+/** Define fonts here **/
+h1, h2, h3, h4, h5, h6{
+  font-family:'Arvo', serif;
+}
+
+p, span, li{
+  font-family: 'PT Sans', sans-serif;
+}
+
+.ham{
   color: #fff;
   font-size: 34px;
   padding: 5px 5px;
 }
 
-.ham a {
+.ham a{
   text-decoration: none;
   color: #fff;
 }
-.ham a:hover {
+
+.ham a:hover{
   color: #F15A29;
+}
+
+
+#navTab .tab-content {
+  color : white;
+  background-color: #428bca;
+  padding : 5px 15px;
+}
+
+#navTab .nav-pills > li > a {
+  border-radius: 0;
 }
