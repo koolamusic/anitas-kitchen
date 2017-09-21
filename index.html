@@ -2,27 +2,31 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<!-- specify VIEWPORT  -->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Anita's Kitchen | Home</title>
-  <!--- Define required css files --->
+  <!-- Define required css files -->
+<link href="assets/white.png" rel="icon shortcut"/>
 <link href="css/style.css" rel="stylesheet" media="all" />
 <link href="css/bootstrap.min.css" rel="stylesheet" media="all" />
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Sanchez" rel="stylesheet">
+<!-- include ionic icons framework -->
+<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
 </head>
 
-<!-- start website content ---->
+<!-- start website content -->
 <body>
-  <!--- navigation menu 'hamburger' --->
-  <div class="navbar navbar-inverse navbar-fixed-top ham">
-  <a href "#" class="glyphicon glyphicon-menu-hamburger"></a>
+  <!-- navigation menu 'hamburger' -->
+  <div class="navbar navbar-fixed-top ham">
+  <a href "#" class="ion-drag"></a>
   </div>
 
-  <!-- Landing page section ---->
+  <!-- Landing page section -->
 <img src="assets/logoBig.png" alt="logo" class="responsive" />
 <h1>We Provide The Best Food <br>At The <b>Right Price</b></h1>
-<!--- End landing page section --->
+ <!-- End landing page section -->
 
-<!--- Start Recipe Categories--->
+ <!-- Start Recipe Categories- -->
 <div class="col-md-3">
   <h3>Happy Hour</h3>
   <h3>Party Time</h3>
@@ -75,29 +79,31 @@
 
 
 <!-- Section to add nav in bootstrap panels --->
-<div id="navTab" class="container panel panel-default">
+<div id="navTab" class="container">
 
-<ul class="nav nav-pills panel-heading">
-  <li class="active"><a href="#1a" data-toggle="tab">Fast Food</a></li>
-	<li><a href="#2a" data-toggle="tab">Drinks</a></li>
-	<li><a href="#3a" data-toggle="tab">Chicken</a></li>
-	<li><a href="#4a" data-toggle="tab">Rice</a></li>
+<ul class="nav nav-pills nav-justified">
+  <li class="active"><a href="#fastFood" data-toggle="tab">Fast Food</a></li>
+	<li><a href="#drinks" data-toggle="tab">Drinks</a></li>
+	<li><a href="#chicken" data-toggle="tab">Chicken</a></li>
+	<li><a href="#rice" data-toggle="tab">Rice</a></li>
 </ul>
 
 <div class="tab-content clearfix">
-  <div class="tab-pane active" id="1a">
+  <div class="tab-pane active" id="fastFood">
+
+
   <h3>Content's background color is the same for the tab</h3>
   </div>
 
-  <div class="tab-pane" id="2a">
+  <div class="tab-pane" id="drinks">
   <h3>We use the class nav-pills instead of nav-tabs which automatically creates a background color for the tab</h3>
   </div>
 
-  <div class="tab-pane" id="3a">
+  <div class="tab-pane" id="chicken">
   <h3>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h3>
   </div>
 
-  <div class="tab-pane" id="4a">
+  <div class="tab-pane" id="#rice">
   <h3>We use css to change the background color of the content to be equal to the tab</h3>
   </div>
 
