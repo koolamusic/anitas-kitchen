@@ -17,31 +17,45 @@
 <!-- start website content -->
 <body>
   <!-- navigation menu 'hamburger' -->
-  <div class="navbar navbar-fixed-top ham">
+  <div class="container-fluid">
+<div class="row hero">
+  <div class="navbar navbar-default ham container-fluid">
   <a href "#" class="ion-drag"></a>
   </div>
 
   <!-- Landing page section -->
+  <div class="text-center content spacing">
 <img src="assets/logoBig.png" alt="logo" class="responsive" />
-<h1>We Provide The Best Food <br>At The <b>Right Price</b></h1>
+<h1><span class="txt-white">We Provide The Best Food <br>At The <b>Right Price</b></span></h1>
+<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us8.list-manage.com","uuid":"dac4af4fc96cc21f65a4fd5d2","lid":"34956a28ba"}) })</script>
+</div>
+</div>
+</div>
  <!-- End landing page section -->
 
+
+
  <!-- Start Recipe Categories- -->
-<div class="col-md-3">
+<div class="container-fluid">
+<div class="row txt.white">
+  <div class="col-md-3">
   <h3>Happy Hour</h3>
   <h3>Party Time</h3>
-</div>
+  </div>
 
-<div class="col-md-3">
+  <div class="col-md-3 pp-breakfast">
   <h3>Breakfast</h3>
-</div>
+  </div>
 
-<div class="col-md-3">
+  <div class="col-md-3 pp-lunch">
   <h3>Lunch</h3>
-</div>
+  </div>
 
-<div class="col-md-3">
+  <div class="col-md-3 pp-dinner">
   <h3>Dinner</h3>
+  </div>
+
+</div>
 </div>
 
 <!-- End Div section here for Recipe Category -->
@@ -70,9 +84,9 @@
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
     </div>
 
-    <div class="col-md-6">
-      <img src="assets/drink1.jpg" alt="fastfood1" />
-      <img src="assets/drink2.jpg" alt="fastfood2" />
+    <div class="col-md-6 img-inline">
+      <img src="assets/drink1.jpg" class="img-inline" alt="fastfood1" />
+      <img src="assets/drink2.jpg" class="img-inline" alt="fastfood2" />
     </div>
   </div> <!--- End div for container Feature --->
 
@@ -169,7 +183,7 @@
 </div><!-- End Tab Section with ID navTab and container all -->
 
 <!-- initialize container in fluid for Testimonial section -->
-<div class="container-fluid">
+<div class="container">
   <div class="col-md-8 col-md-offset-2 text-center">
 
 <!-- Start Testimonial column break -->
@@ -182,9 +196,11 @@
       <li class="slide-nav-previous"><a class="ion-chevron-left" href="#"></a></li>
       <li class="slide-nav-next"><a class="ion-chevron-right" href="#"></a></li>
     </ul>
+    <div class="img-inline">
   <img src="assets/customers/p1.png" alt="customer1" class="img-responsive" />
   <img src="assets/customers/p2.png" alt="customer2" class="img-responsive" />
   <img src="assets/customers/p3.png" alt="customer3" class="img-responsive" />
+</div>
 
 </div><!-- End column break for testimonials -->
 
@@ -199,6 +215,35 @@
   <!-- Close col-md-8 div star -->
   </div><!-- Dont worry; container fluid closed -->
 
+<div class="container"><!-- Website section for email subscription with Mailchimp Integration -->
+  <div class="col-md-offset-2 col-md-8 text-center">
+    <!-- Begin MailChimp Signup Form -->
+<h2>Get our daily food items delivered to your email</h2>
+  <form action="https://tecmie.us8.list-manage.com/subscribe/post?u=dac4af4fc96cc21f65a4fd5d2&amp;id=34956a28ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+  <div class="form-group">
+    <input type="email" class="form-control required" name="EMAIL" id="mce-EMAIL">
+  </div>
+  <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"  class="btn btn-danger">Subscribe</button>
+  </form>
+</div>
+</div><!-- End Email subscription section -->
+
+
+
+
+<!-- Start Website Footer Section -->
+<div class="container-fluid footer">
+  <div class="row img-inline">
+    <div class="col-md-4 col-md-offset-4">
+    <img src="assets/footerlogos/logo_white.png" class="img-responsive" />
+    <h5>That's what we are</h5>
+  <a href ="#"><img src="assets/footerlogos/facebook.png" class="img-responsive" alt="facebook" /></a>
+  <a href ="#"><img src="assets/footerlogos/facebook.png" class="img-responsive" alt="facebook" /></a>
+  <a href ="#"><img src="assets/footerlogos/facebook.png" class="img-responsive" alt="facebook" /></a>
+</div>
+</div><!-- End column offset for elements within container -->
+</div><!-- End div class container -->
+
 
 
 
@@ -206,8 +251,16 @@
 
 
 <script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<!-- <script src="js/bootstrap.min.js"></script> -->
 <script src="js/script.js"></script>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-52368657-7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
 
+  gtag('config', 'UA-52368657-7');
+</script>
 </body>
 </html>
