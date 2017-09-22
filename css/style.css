@@ -26,13 +26,13 @@ p, span, li{
   color: #F15A29;
 }
 
-
+/**
 #navTab .tab-content {
   color : white;
   background-color: #428bca;
   padding : 5px 15px;
-}
+}  **/
 
 #navTab .nav-pills > li > a {
   border-radius: 0;
-}
+}  

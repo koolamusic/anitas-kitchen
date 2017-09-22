@@ -78,38 +78,118 @@
 
 
 
-<!-- Section to add nav in bootstrap panels --->
+<!-- Section to add navigation Tabs in bootstrap panels --->
 <div id="navTab" class="container">
 
+<!-- Bootstrap nav tab justified for full width with responsive menu pills -->
 <ul class="nav nav-pills nav-justified">
   <li class="active"><a href="#fastFood" data-toggle="tab">Fast Food</a></li>
 	<li><a href="#drinks" data-toggle="tab">Drinks</a></li>
 	<li><a href="#chicken" data-toggle="tab">Chicken</a></li>
-	<li><a href="#rice" data-toggle="tab">Rice</a></li>
+	<li><a href="#ricePie" data-toggle="tab">Rice</a></li>
 </ul>
+<!-- End Bootstrap Navigation Tabs section -->
 
-<div class="tab-content clearfix">
-  <div class="tab-pane active" id="fastFood">
+<!-- Add Stacked Tabs content with images in broken columns -->
+<div class="tab-content">
+  <div class="tab-pane active fade in" id="fastFood">
+    <div class="col-sm-4">
+      <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger" />
+      <h5>Chicken Burger</h5>
+    </div>
 
+    <div class="col-sm-4">
+      <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger" />
+      <h5>Beef Burger</h5>
+    </div>
 
-  <h3>Content's background color is the same for the tab</h3>
+    <div class="col-sm-4">
+      <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza" />
+      <h5>Chicken Pizza</h5>
+    </div>
   </div>
+  <!-- End Active Tab Pane  -->
 
-  <div class="tab-pane" id="drinks">
-  <h3>We use the class nav-pills instead of nav-tabs which automatically creates a background color for the tab</h3>
-  </div>
+<!-- Tab Content Section for Drinks  -->
+  <div class="tab-pane fade" id="drinks">
+    <div class="col-sm-4">
+      <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger" />
+      <h5>Chicken Burger</h5>
+    </div>
 
-  <div class="tab-pane" id="chicken">
-  <h3>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h3>
-  </div>
+    <div class="col-sm-4">
+      <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger" />
+      <h5>Beef Burger</h5>
+    </div>
 
-  <div class="tab-pane" id="#rice">
-  <h3>We use css to change the background color of the content to be equal to the tab</h3>
-  </div>
+    <div class="col-sm-4">
+      <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza" />
+      <h5>Chicken Pizza</h5>
+    </div>
+  </div><!-- End Drinks Tab Content Section -->
+
+<!-- Apply same content to Tab Navigation on Chicken -->
+  <div class="tab-pane fade" id="chicken">
+    <div class="col-sm-4">
+      <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger" />
+      <h5>Chicken Burger</h5>
+    </div>
+
+    <div class="col-sm-4">
+      <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger" />
+      <h5>Beef Burger</h5>
+    </div>
+
+    <div class="col-sm-4">
+      <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza" />
+      <h5>Chicken Pizza</h5>
+    </div>
+  </div><!-- End Chicken Tab Content section -->
+
+
+<!-- Begin Rice Pie Tab content Section -->
+  <div class="tab-pane fade" id="ricePie">
+    <div class="col-sm-4">
+      <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger" />
+      <h5>Chicken Burger</h5>
+    </div>
+
+    <div class="col-sm-4">
+      <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger" />
+      <h5>Beef Burger</h5>
+    </div>
+
+    <div class="col-sm-4">
+      <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza" />
+      <h5>Chicken Pizza</h5>
+    </div>
+  </div><!-- End Rice Pie Tab Content Section -->
 
 </div>
-</div>
+</div><!-- End Tab Section with ID navTab and container all -->
 
+<!-- initialize container in fluid for Testimonial section -->
+<div class="container-fluid">
+  <div class="col-md-12">
+
+<!-- Start Testimonial column break -->
+<div class="col-sm-7">
+  <h3>Our Happy Customers</h3>
+  <h5>George Richard</h5>
+  <p>Great food! Menu is awesome, there foods are not only great
+  but also in the right price. I'll recommend them :)</p>
+</div><!-- End column break for testimonials -->
+
+<!-- Start About Menu div class section -->
+<div class="col-sm-5">
+  <h3>About Menu</h4>
+    <p>We are menu a little team of 7 members. Ut wisi enim ad minim veniam, quis nos trudexer citation ullamcorper
+      suscipit lob ortis nisl ut aliquip ex ea commodo conse quat. Duisau tem val enum iriure dolor in.</p>
+    </div><!-- End About Menu column -->
+
+  </div>
+  <!-- Close col-md-8 div star -->
+  </div><!-- Dont worry; container fluid closed -->
 
 
 
