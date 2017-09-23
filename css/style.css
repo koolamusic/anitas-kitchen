@@ -240,9 +240,21 @@ height:100%;
   color: #f15a29;
   font-size: 25px;
   line-height: 0px;
+  cursor: pointer;
+}
+.slide-nav li a:hover{
+  color: #1b1b1b;
+  cursor: pointer;
 }
 .slide-nav-previous{
-  top:50%;
+    top: 45%;
+    left: 2%;
+    position: absolute;
+}
+.slide-nav-next{
+    top: 45%;
+    right: 2%;
+    position: absolute;
 }
 
 
