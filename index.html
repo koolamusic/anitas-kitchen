@@ -37,7 +37,7 @@
  <!-- Start Recipe Categories- -->
 <div class="container-fluid">
 <div class="row txt-white section-2">
-<div class="col-md-3" style="padding:0 0;">
+<div class="col-md-3" style="padding:0 0;  background:#f15a29;">
   <div class="span-hour">
   <h3 class="">Happy Hour</h3>
   </div>
@@ -73,7 +73,7 @@
 </div>
 </div>
 
-  <div class="col-md-6 paratext">
+  <div class="col-md-6 paratext content">
     <h2>Fast Food</h2>
     <h4>You'll love our delicious fast food</h4>
     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
@@ -89,7 +89,7 @@
 
 <!--- Section Two for Restaurant Gallery Display Section --->
   <div class="container feature clearance"><!--- Start Div for Container Feature 2-->
-    <div class="col-md-6 paratext">
+    <div class="col-md-6 paratext content">
       <h2>Drinks</h2>
       <h4>We also produce delicious drinks</h4>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
@@ -115,32 +115,40 @@
 
 
 <!-- Section to add navigation Tabs in bootstrap panels --->
-<div id="navTab" class="container clearance">
-
+<div class="container-fluid clearance">
+  <div class="row section-3">
+<div id="navTab" class="col-md-8 col-md-offset-2 clearance section-tab">
 <!-- Bootstrap nav tab justified for full width with responsive menu pills -->
-<ul class="nav nav-pills nav-justified">
+<ul class="nav nav-pills nav-justified text-center section-tab-h" style="margin:0px 0px 0px -15px;
+    width: 102%;background:#eee;">
   <li class="active"><a href="#fastFood" data-toggle="tab">Fast Food</a></li>
 	<li><a href="#drinks" data-toggle="tab">Drinks</a></li>
 	<li><a href="#chicken" data-toggle="tab">Chicken</a></li>
-	<li><a href="#ricePie" data-toggle="tab">Rice</a></li>
+	<li><a href="#ricePie" style="border-right:0px solid;" data-toggle="tab">Rice</a></li>
 </ul>
 <!-- End Bootstrap Navigation Tabs section -->
+  <div class="navContent">
 
 <!-- Add Stacked Tabs content with images in broken columns -->
-<div class="tab-content">
+<div class="tab-content text-center">
+  <div class="navContent">
+    <ul class="slide-nav">
+      <li class="slide-nav-previous"><a class="ion-chevron-left" href="#"></a></li>
+      <li class="slide-nav-next"><a class="ion-chevron-right" href="#"></a></li>
+    </ul>
   <div class="tab-pane active fade in" id="fastFood">
     <div class="col-sm-4">
-      <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger" />
+      <img src="assets/fastfood/chickenBurger.jpg" class="img-responsive" alt="Chicken Burger" />
       <h5>Chicken Burger</h5>
     </div>
 
     <div class="col-sm-4">
-      <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger" />
+      <img src="assets/fastfood/beefBurger.jpg" class="img-responsive" alt="Beef Burger" />
       <h5>Beef Burger</h5>
     </div>
 
     <div class="col-sm-4">
-      <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza" />
+      <img src="assets/fastfood/chickenPizza.jpg"  class="img-responsive"alt="Chicken Pizza" />
       <h5>Chicken Pizza</h5>
     </div>
   </div>
@@ -149,35 +157,35 @@
 <!-- Tab Content Section for Drinks  -->
   <div class="tab-pane fade" id="drinks">
     <div class="col-sm-4">
-      <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger" />
+      <img src="assets/fastfood/chickenBurger.jpg" class="img-responsive" alt="Chicken Burger" />
       <h5>Chicken Burger</h5>
     </div>
 
     <div class="col-sm-4">
-      <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger" />
-      <h5>Beef Burger</h5>
+      <img src="assets/fastfood/chickenPizza.jpg" class="img-responsive" alt="Chicken Pizza" />
+      <h5>Chicken Pizza</h5>
     </div>
 
     <div class="col-sm-4">
-      <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza" />
-      <h5>Chicken Pizza</h5>
+      <img src="assets/fastfood/beefBurger.jpg"  class="img-responsive"alt="Beef Burger" />
+      <h5>Beef Burger</h5>
     </div>
   </div><!-- End Drinks Tab Content Section -->
 
 <!-- Apply same content to Tab Navigation on Chicken -->
   <div class="tab-pane fade" id="chicken">
     <div class="col-sm-4">
-      <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger" />
+      <img src="assets/fastfood/chickenBurger.jpg" class="img-responsive" alt="Chicken Burger" />
       <h5>Chicken Burger</h5>
     </div>
 
     <div class="col-sm-4">
-      <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger" />
+      <img src="assets/fastfood/beefBurger.jpg"  class="img-responsive"alt="Beef Burger" />
       <h5>Beef Burger</h5>
     </div>
 
     <div class="col-sm-4">
-      <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza" />
+      <img src="assets/fastfood/chickenPizza.jpg" class="img-responsive" alt="Chicken Pizza" />
       <h5>Chicken Pizza</h5>
     </div>
   </div><!-- End Chicken Tab Content section -->
@@ -186,26 +194,33 @@
 <!-- Begin Rice Pie Tab content Section -->
   <div class="tab-pane fade" id="ricePie">
     <div class="col-sm-4">
-      <img src="assets/fastfood/chickenBurger.jpg" alt="Chicken Burger" />
+      <img src="assets/fastfood/chickenBurger.jpg" class="img-responsive" alt="Chicken Burger" />
       <h5>Chicken Burger</h5>
     </div>
 
     <div class="col-sm-4">
-      <img src="assets/fastfood/beefBurger.jpg" alt="Beef Burger" />
-      <h5>Beef Burger</h5>
+      <img src="assets/fastfood/chickenPizza.jpg" class="img-responsive" alt="Chicken Pizza" />
+      <h5>Chicken Pizza</h5>
     </div>
 
     <div class="col-sm-4">
-      <img src="assets/fastfood/chickenPizza.jpg" alt="Chicken Pizza" />
-      <h5>Chicken Pizza</h5>
+      <img src="assets/fastfood/beefBurger.jpg" class="img-responsive" alt="Beef Burger" />
+      <h5>Beef Burger</h5>
     </div>
   </div><!-- End Rice Pie Tab Content Section -->
 
 </div>
+</div><!-- div class end Nav content -->
 </div><!-- End Tab Section with ID navTab and container all -->
+</div></div><!-- End BT container fluid and row  -->
+
+
+
+
+
 
 <!-- initialize container in fluid for Testimonial section -->
-<div class="container">
+<div class="container clearance clearfix">
   <div class="col-md-8 col-md-offset-2 text-center">
 
 <!-- Start Testimonial column break -->
@@ -273,7 +288,7 @@
 
 
 <script src="js/jquery.min.js"></script>
-<!-- <script src="js/bootstrap.min.js"></script> -->
+<script src="js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 <!-- Global Site Tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52368657-7"></script>
