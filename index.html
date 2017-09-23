@@ -50,7 +50,7 @@
   <h3>Breakfast</h3>
 </div>
 
-  <div class="col-md-3 pp-lunch media-active">
+  <div class="col-md-3 pp-lunch media-active overlay">
   <h3>Lunch</h3>
   </div>
 
@@ -65,38 +65,57 @@
 
 
 <!--- New Feature Section with image blocks --->
-<div class="container clearance"><!--- Start Div for Container Feature -->
-<div class="col-md-6">
+<div class="container feature clearance"><!--- Start Div for Container Feature -->
+<div class="col-md-6 img-inline text-center" style="padding-right:5%;">
+  <div class="feature-image container-fluid float-right">
   <img src="assets/fastFood1.jpg" alt="fastfood1" />
   <img src="assets/fastFood2.jpg" alt="fastfood2" />
 </div>
+</div>
 
-  <div class="col-md-6">
+  <div class="col-md-6 paratext">
     <h2>Fast Food</h2>
     <h4>You'll love our delicious fast food</h4>
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-  </div>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+      dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+      type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+      but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      <a class="clearance" href="#"><button class="btn btn-default">VIEW GALLERY &#8594;</button></a>
+    </div><!-- End Fast Food div Section -->
 </div><!--- End div for container Feature --->
 
+<hr>
 
-<!--- Section Two for Core Gallery Display Section --->
-  <div class="container feature"><!--- Start Div for Container Feature -->
-    <div class="col-md-6">
+<!--- Section Two for Restaurant Gallery Display Section --->
+  <div class="container feature clearance"><!--- Start Div for Container Feature 2-->
+    <div class="col-md-6 paratext">
       <h2>Drinks</h2>
       <h4>We also produce delicious drinks</h4>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+        dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a
+        type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,
+        remaining essentially unchanged. rinter took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <a class="clearance" href="#"><button class="btn btn-default">VIEW GALLERY &#8594;</button></a>
     </div>
 
-    <div class="col-md-6 img-inline">
-      <img src="assets/drink1.jpg" class="img-inline" alt="fastfood1" />
-      <img src="assets/drink2.jpg" class="img-inline" alt="fastfood2" />
+      <div class="col-sm-6">
+        <div class="feature-image container-fluid float-left">
+      <img src="assets/drink1.jpg" class="img-responsive main-block"  alt="fastfood1" />
+      <img src="assets/drink2.jpg" class="img-responsive main-block"  alt="fastfood2" />
     </div>
-  </div> <!--- End div for container Feature --->
+    </div>
+  </div>
+</div>
+<!--- End div for container Feature --->
+
+</div>
 
 
 
 <!-- Section to add navigation Tabs in bootstrap panels --->
-<div id="navTab" class="container">
+<div id="navTab" class="container clearance">
 
 <!-- Bootstrap nav tab justified for full width with responsive menu pills -->
 <ul class="nav nav-pills nav-justified">
@@ -224,7 +243,7 @@
 <h2>Get our daily food items delivered to your email</h2>
   <form action="https://tecmie.us8.list-manage.com/subscribe/post?u=dac4af4fc96cc21f65a4fd5d2&amp;id=34956a28ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
   <div class="form-group">
-    <input type="email" class="form-control required" name="EMAIL" id="mce-EMAIL">
+    <input type="email" class="form-control required" placeholder="your email" name="EMAIL" id="mce-EMAIL">
   </div>
   <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"  class="btn btn-danger">Subscribe</button>
   </form>
