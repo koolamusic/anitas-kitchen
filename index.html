@@ -6,12 +6,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>Anita's Kitchen | Home</title>
   <!-- Define required css files -->
-<link href="assets/white.png" rel="icon shortcut"/>
-<link href="css/style.css" rel="stylesheet" media="all" />
+<link href="assets/white.png" rel="icon shortcut" />
+<link href="css/style.css" rel="stylesheet" />
 <link href="css/bootstrap.min.css" rel="stylesheet" media="all" />
-<link href="https://fonts.googleapis.com/css?family=PT+Sans|Sanchez" rel="stylesheet">
-<!-- include ionic icons framework -->
-<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet">
+<!-- include ionic icons framework Local xxx CDN-->
+<!-- <link href="css/ionicons.min.css" rel="stylesheet" media="all" /> -->
+<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" media="all" />
+<link href="https://fonts.googleapis.com/css?family=PT+Sans|Sanchez" rel="stylesheet" media="all" />
 </head>
 
 <!-- start website content -->
@@ -220,70 +221,69 @@
 
 <!-- initialize container in fluid for Testimonial section -->
 <div class="container clearance clearfix">
-  <div class="col-md-8 col-md-offset-2 text-center">
+  <div class="col-md-10 col-md-offset-1 text-center stories">
 
 <!-- Start Testimonial column break -->
-<div class="col-sm-7">
+<div class="col-sm-7" style="border-right:1px solid #efefef;">
   <h3>Our Happy Customers</h3>
   <h5>George Richard</h5>
   <p>Great food! Menu is awesome, there foods are not only great
   but also in the right price. I'll recommend them :)</p>
     <ul class="slide-nav">
-      <li class="slide-nav-previous"><a class="ion-chevron-left" href="#"></a></li>
-      <li class="slide-nav-next"><a class="ion-chevron-right" href="#"></a></li>
+      <li class="slide-nav-previous-st"><a class="ion-chevron-left" href="#"></a></li>
+      <li class="slide-nav-next-st"><a class="ion-chevron-right" href="#"></a></li>
     </ul>
-    <div class="img-inline">
-  <img src="assets/customers/p1.png" alt="customer1" class="img-responsive" />
-  <img src="assets/customers/p2.png" alt="customer2" class="img-responsive" />
-  <img src="assets/customers/p3.png" alt="customer3" class="img-responsive" />
+    <div class="col-sm-offset-4" style="padding:0px 15px 0px 8px;">
+  <img src="assets/customers/p1.png" alt="customer1" class="img-responsive img-inline-st" />
+  <img src="assets/customers/p2.png" alt="customer2" class="img-responsive img-inline-st" />
+  <img src="assets/customers/p3.png" alt="customer3" class="img-responsive img-inline-st" />
 </div>
 
 </div><!-- End column break for testimonials -->
 
+
 <!-- Start About Menu div class section -->
-<div class="col-sm-5">
+<div class="col-sm-5" style="border-left:1px solid #eee;">
   <h3>About Menu</h4>
     <p>We are menu a little team of 7 members. Ut wisi enim ad minim veniam, quis nos trudexer citation ullamcorper
       suscipit lob ortis nisl ut aliquip ex ea commodo conse quat. Duisau tem val enum iriure dolor in.</p>
+      <br>
     </div><!-- End About Menu column -->
 
   </div>
   <!-- Close col-md-8 div star -->
   </div><!-- Dont worry; container fluid closed -->
 
-<div class="container"><!-- Website section for email subscription with Mailchimp Integration -->
-  <div class="col-md-offset-2 col-md-8 text-center">
+
+
+
+<div class="container-fluid clearance"><!-- Website section for email subscription with Mailchimp Integration -->
+  <div class="row subscribe">
+  <div class="col-md-offset-2 col-md-8 text-center" >
     <!-- Begin MailChimp Signup Form -->
 <h2>Get our daily food items delivered to your email</h2>
   <form action="https://tecmie.us8.list-manage.com/subscribe/post?u=dac4af4fc96cc21f65a4fd5d2&amp;id=34956a28ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-  <div class="form-group">
-    <input type="email" class="form-control required" placeholder="your email" name="EMAIL" id="mce-EMAIL">
-  </div>
-  <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"  class="btn btn-danger">Subscribe</button>
+  <div class="form-group form-inline">
+    <input type="email" class="form-control form-subscribe required" placeholder="Your email" name="EMAIL" id="mce-EMAIL">
+  <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"  class="btn btn-highlight">Subscribe</button>
   </form>
+</div>
+</div>
 </div>
 </div><!-- End Email subscription section -->
 
 
-
-
 <!-- Start Website Footer Section -->
-<div class="container-fluid footer">
-  <div class="row img-inline">
-    <div class="col-md-4 col-md-offset-4">
-    <img src="assets/footerlogos/logo_white.png" class="img-responsive" />
-    <h5>That's what we are</h5>
-  <a href ="#"><img src="assets/footerlogos/facebook.png" class="img-responsive" alt="facebook" /></a>
-  <a href ="#"><img src="assets/footerlogos/facebook.png" class="img-responsive" alt="facebook" /></a>
-  <a href ="#"><img src="assets/footerlogos/facebook.png" class="img-responsive" alt="facebook" /></a>
-</div>
-</div><!-- End column offset for elements within container -->
-</div><!-- End div class container -->
-
-
-
-
-
+<div class="col-md-12 footer">
+    <div class="social">
+        <img src="assets/footerlogos/logo_white.png" class="img-responsive" style="display:inline" alt="fastfood" width="" height=""><h1 style="color:#ffffff;"> MENU</h1>
+        <h4>Thats What We Are</h4>
+      </div>
+        <img src="assets/footerlogos/facebook.png"  class="img-responsive" style="display:inline" alt="facebook" width="" height="" />
+        <img src="assets/footerlogos/twitter.png"  class="img-responsive" style="display:inline" alt="twitter" width="" height="" />
+        <img src="assets/footerlogos/pinterest.png"  class="img-responsive" style="display:inline" alt="pinterest" width="" height="" />
+        <h4 class="social">2016 Menu Restaurant</4>
+    </div><!-- End column 12 for elements in footer -->
 
 
 <script src="js/jquery.min.js"></script>
