@@ -20,10 +20,17 @@
   <!-- navigation menu 'hamburger' -->
   <div class="container-fluid">
 <div class="row hero">
-  <div class="navbar navbar-default ham container-fluid">
-  <a href "#" class="ion-drag">Menu</a>
+  <div id="hamBurger" class="haMenu">
+     <a href="#" aria-hidden="true" class="closer" onclick="closeNav()">&times;</a>
+    <div class="full__content">
+      <a href="#">contacts</a>
+      <a href="#">events</a>
+      <a href="#">menu</a>
+    </div>
   </div>
-
+  <div class="ham">
+    <a href="#" class="animated zoomIn" onclick="openNav()"><ion-icon class="ion-drag"><ion-icon></a>
+  </div>
   <!-- Landing page section -->
   <div class="text-center content spacing">
 <img src="assets/logoBig.png" alt="logo" class="responsive" />
@@ -38,7 +45,7 @@
  <!-- Start Recipe Categories- -->
 <div class="container-fluid">
 <div class="row txt-white section-2">
-<div class="col-md-3" style="padding:0 0;  background:#f15a29;">
+<div class="col-md-3 animated bounceInLeft" style="padding:0 0;  background:#f15a29;">
   <div class="span-hour">
   <h3 class="">Happy Hour</h3>
   </div>
@@ -47,15 +54,15 @@
   </div>
 </div>
 
-  <div class="col-md-3 pp-breakfast overlay italic">
+  <div class="col-md-3 pp-breakfast overlay italic animated bounceInLeft">
   <h3>Breakfast</h3>
 </div>
 
-  <div class="col-md-3 pp-lunch media-active overlay">
+  <div class="col-md-3 pp-lunch media-active overlay animated bounceInDown">
   <h3>Lunch</h3>
   </div>
 
-  <div class="col-md-3 pp-dinner overlay">
+  <div class="col-md-3 pp-dinner overlay animated bounceInRight">
   <h3>Dinner</h3>
   </div>
 
