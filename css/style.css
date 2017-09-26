@@ -64,8 +64,39 @@ body {
   -o-transform: scale(0.90)
   padding: 2px 2px 10px 2px;
 }
-/*End Zoom Controlproperty*/
+/*End Zoom Control property*/
 
+
+/*Start Modal Control Section*/
+.modal-title {
+    margin: 0;
+    line-height: 1.42857143;
+    bottom: 43%;
+    position: absolute;
+    background: #fff;
+    padding: 10px 10px 15px 10px;
+    z-index: auto;
+}
+.modal-content {
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 1px!important;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    padding: 10px 10px 20px 10px;
+}
+.md-time {
+    background: url(../assets/drink.gif) no-repeat;
+    background-size: cover;
+    background-color: #ec6430;
+    margin: -10px -10px;
+    height: 250px;
+    background-position: center;
+}
+
+
+/*End Modal Control Section*/
 
 /*Add a property to create margins within content*/
 .clearance{
@@ -228,6 +259,10 @@ height:100%;
   margin-top:0px;
   height: 100%;
   color:#2b2b2b;
+  cursor: pointer;
+}
+.span-hour:hover{
+  border:1px solid #2b2b2b;
 }
 .emphasis{
   background-color: #F15A29;
