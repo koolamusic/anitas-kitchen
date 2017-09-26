@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" media="all" />
+<link href="https://fonts.googleapis.com/css?family=PT+Sans|Sanchez" rel="stylesheet" media="all" />
+</head>
+ <body>
+   <style>
+.haMenu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  background: #F15A29;
+  overflow-x: hidden;
+  z-index: 5;
+  transition: all .5s;
+}
+.full__content{
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.full__content a{
+  padding: 10px;
+  text-decoration: none;
+  color: #000;
+  font-size: 32px;
+  display: block;
+}
+.full__content a:hover{
+  color: #fff;
+}
+.haMenu > .closer{
+  position: absolute;
+  top: 20px;
+  font-size: 55px;
+  right: 50px;
+  color: #000;
+  text-decoration: none;
+}
+.closer:hover{
+  color: #fff;
+}
+   </style>
+
+<script>
+function openNav(){
+  document.getElementById('hamBurger').style.height="100%";
+};
+function closeNav() {
+document.getElementById('hamBurger').style.height="0%";
+};
+
+</script>
+
+ <div class="row hero">
+<div id="hamBurger" class="haMenu">
+   <a href="#" class="ion-drag closer" onclick="closeNav()">&times;</a>
+  <div class="full__content">
+    <a href="#">Event</a>
+    <a href="#">Contact</a>
+    <a href="#">Menu</a>
+  </div>
+</div>
+<div class="ham">
+  <a href="#" class="ion-drag" onclick="openNav()">Open Menu</a>
+</div>
+</div>
+<script src="js/jquery.min.js"></script>
+ <body>
+</html>

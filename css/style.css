@@ -123,7 +123,21 @@ min-height:70%;
 }
 .ham a:hover{
   color: #F15A29;
+  text-decoration: none;
 }
+/*Fullscreen Menu*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Section Two Content Control*/
 .section-2{
@@ -339,8 +353,8 @@ margin: 20px 20px;
   font-weight: 500;
 }
 .form-subscribe {
-    height: 36px !important;
-    padding: 2px 100px !important;
+    height: 37px !important;
+    padding: 2px 100px 0px 12px !important;
     background: rgba(144, 144, 144, 0.63) !important;
     border: 1px solid rgba(98, 95, 95, 0.28) !important;
     margin: 10px 15px 10px 0px;
@@ -380,7 +394,7 @@ margin: 20px 20px;
   }
 .social{
 text-align: center;
-margin-top: 3%;
+padding-top: 3%;
 color: #ffffff;
 }
 .img-inline-ft{
