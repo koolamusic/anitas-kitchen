@@ -10,8 +10,8 @@
 <link href="css/style.css" rel="stylesheet" />
 <link href="css/bootstrap.min.css" rel="stylesheet" media="all" />
 <!-- include ionic icons framework Local xxx CDN-->
-<!-- <link href="css/ionicons.min.css" rel="stylesheet" media="all" /> -->
-<link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" media="all" />
+<link href="css/ionicons.min.css" rel="stylesheet" />
+<!-- <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" media="all" /> -->
 <link href="https://fonts.googleapis.com/css?family=PT+Sans|Sanchez" rel="stylesheet" media="all" />
 </head>
 
@@ -29,7 +29,7 @@
     </div>
   </div>
   <div class="ham">
-    <a href="#" class="animated zoomIn" onclick="openNav()"><ion-icon class="ion-drag"><ion-icon></a>
+    <a href="#" class="animated zoomIn" onclick="openNav()"><ion-icon class="ion-drag"></ion-icon></a>
   </div>
   <!-- Landing page section -->
   <div class="text-center content spacing">
@@ -47,7 +47,7 @@
 <div class="row txt-white section-2">
 <div class="col-md-3 animated bounceInLeft" style="padding:0 0;  background:#f15a29;">
   <div class="span-hour">
-  <h3 class="">Happy Hour</h3>
+  <h3 class="" data-toggle="modal" data-target="#happyHour" >Happy Hour</h3>
   </div>
   <div class="emphasis">
   <h3 class="">Party Time</h3>
@@ -69,11 +69,31 @@
 </div>
 </div>
 
+<!-- Start Modal -->
+<div class="modal" id="happyHour">
+<div class="modal-dialog modal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3 class="modal-title">This is the new para</h3>
+    </div>
+    <div class="modal-body">
+<p>This is the beginning of the world in the kenyan euphoria This is the beginning of the world in the kenyan euphoria
+This is the beginning of the world in the kenyan euphoria This is the beginning of the world in the kenyan euphoria</p>
+    </div>
+<div class="modal-footer">
+  <a href="" class="btn btn-default" data-dismiss="modal">Close</a>
+</div>
+
+  </div>
+</div>
+</div>
+
+
 <!-- End Div section here for Recipe Category -->
 
 
-<!--- New Feature Section with image blocks --->
-<div class="container feature clearance"><!--- Start Div for Container Feature -->
+<!-- New Feature Section with image blocks -->
+<div class="container feature clearance"><!-- Start Div for Container Feature -->
 <div class="col-md-6 img-inline text-center" style="padding-right:5%;">
   <div class="feature-image container-fluid float-right">
   <img src="assets/fastFood1.jpg" alt="fastfood1" />
@@ -91,12 +111,12 @@
       but also the leap into electronic typesetting, remaining essentially unchanged.</p>
       <a class="clearance" href="#"><button class="btn btn-default">VIEW GALLERY &#8594;</button></a>
     </div><!-- End Fast Food div Section -->
-</div><!--- End div for container Feature --->
+</div><!-- End div for container Feature -->
 
 <hr>
 
-<!--- Section Two for Restaurant Gallery Display Section --->
-  <div class="container feature clearance"><!--- Start Div for Container Feature 2-->
+<!-- Section Two for Restaurant Gallery Display Section -->
+  <div class="container feature clearance"><!-- Start Div for Container Feature 2 -->
     <div class="col-md-6 paratext content">
       <h2>Drinks</h2>
       <h4>We also produce delicious drinks</h4>
@@ -115,10 +135,7 @@
     </div>
     </div>
   </div>
-</div>
-<!--- End div for container Feature --->
-
-</div>
+<!-- End div for container Feature -->
 
 
 
@@ -152,7 +169,7 @@
     </div>
 
     <div class="col-sm-4">
-      <img src="assets/fastfood/chickenPizza.jpg"  class="img-responsive"alt="Chicken Pizza" />
+      <img src="assets/fastfood/chickenPizza.jpg"  class="img-responsive" alt="Chicken Pizza" />
       <h5>Chicken Pizza</h5>
     </div>
 
@@ -172,7 +189,7 @@
     </div>
 
     <div class="col-sm-4">
-      <img src="assets/fastfood/beefBurger.jpg"  class="img-responsive"alt="Beef Burger" />
+      <img src="assets/fastfood/beefBurger.jpg"  class="img-responsive" alt="Beef Burger" />
       <h5>Beef Burger</h5>
     </div>
   </div><!-- End Drinks Tab Content Section -->
@@ -185,7 +202,7 @@
     </div>
 
     <div class="col-sm-4">
-      <img src="assets/fastfood/beefBurger.jpg"  class="img-responsive"alt="Beef Burger" />
+      <img src="assets/fastfood/beefBurger.jpg"  class="img-responsive" alt="Beef Burger" />
       <h5>Beef Burger</h5>
     </div>
 
@@ -199,7 +216,7 @@
 <!-- Begin Rice Pie Tab content Section -->
   <div class="tab-pane fade" id="ricePie">
     <div class="col-sm-4">
-      <img src="assets/fastfood/chickenBurger.jpg" class="img-responsive" alt="Chicken Burger" />
+      <img src="assets/fastfood/chickenBurger.jpg" class="img-responsive"  alt="Chicken Burger" />
       <h5>Chicken Burger</h5>
     </div>
 
@@ -251,7 +268,7 @@
 
 <!-- Start About Menu div class section -->
 <div class="col-sm-5" style="border-left:1px solid #eee;">
-  <h3>About Menu</h4>
+  <h3>About Menu</h3>
     <p>We are menu a little team of 7 members. Ut wisi enim ad minim veniam, quis nos trudexer citation ullamcorper
       suscipit lob ortis nisl ut aliquip ex ea commodo conse quat. Duisau tem val enum iriure dolor in.</p>
       <br>
@@ -271,10 +288,10 @@
 <h2>Get our daily food items delivered to your email</h2>
   <form action="https://tecmie.us8.list-manage.com/subscribe/post?u=dac4af4fc96cc21f65a4fd5d2&amp;id=34956a28ba" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
   <div class="form-group form-inline">
-    <input type="email" class="form-control form-subscribe required" placeholder="Your email" name="EMAIL" id="mce-EMAIL">
+    <input type="email" class="form-control form-subscribe required" placeholder="Your email" name="EMAIL" id="mce-EMAIL" />
   <button type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"  class="btn btn-highlight">Subscribe</button>
-  </form>
 </div>
+  </form>
 </div>
 </div>
 </div><!-- End Email subscription section -->
@@ -289,7 +306,7 @@
         <img src="assets/footerlogos/facebook.png"  class="img-responsive" style="display:inline" alt="facebook" width="" height="" />
         <img src="assets/footerlogos/twitter.png"  class="img-responsive" style="display:inline" alt="twitter" width="" height="" />
         <img src="assets/footerlogos/pinterest.png"  class="img-responsive" style="display:inline" alt="pinterest" width="" height="" />
-        <h4 class="social">2016 Menu Restaurant</4>
+        <h4 class="social">2016 Menu Restaurant</h4>
     </div><!-- End column 12 for elements in footer -->
 
 
