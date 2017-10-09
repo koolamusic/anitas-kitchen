@@ -9,8 +9,8 @@ $('.slideNext').click(function(){
 
 // Full Screen Menu
 function openNav(){
-  document.getElementById('hamBurger').style.height="100%";
+  document.getElementById('hamBurger').style.width="45%";
 };
 function closeNav() {
-document.getElementById('hamBurger').style.height="0%";
+document.getElementById('hamBurger').style.width="0%";
 };
